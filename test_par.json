@@ -1,0 +1,49 @@
+{
+    "lr": 0.001,
+    "bs": 32,
+    "loss": "quantile",
+    "optimizer": "adam",
+    "f_low": 0.8,
+    "f_high": 4.5,
+    "f_pad": 3,
+    "cmpts": "Z",
+    "s_rate": 40,
+    "w_len": 30,
+    "shift": 5,
+    "f": 45,
+    "d": [
+        2,
+        4,
+        8,
+        16,
+        32
+    ],
+    "k": 20,
+    "s": 3,
+    "dense": [
+        64,
+        64
+    ],
+    "pat": 20,
+    "t_step": 64,
+    "v_step": 64,
+    "cmps": "B",
+    "zp": false,
+    "project_name": "",
+    "model_name": "lr:0.001|bs:32|loss:quantile|optimizer:adam|f_low:0.8|f_high:4.5|f_pad:3|cmpts:Z|s_rate:40|w_len:30|shift:5|f:45|d:2x4x8x16x32|k:20|s:3|dense:64x64|pat:20|t_step:64|v_step:64|cmps:B|zp:False|trnRET:False|type:tcn|quantiles:0.9772x0.8413x0.1538x0.0228",
+    "model_file": "",
+    "model_save": "",
+    "log_folder": "logs/",
+    "data_folder": "data/",
+    "image_folder": "images/",
+    "model_folder": "models/",
+    "trnRET": false,
+    "catalog": "",
+    "type": "tcn",
+    "quantiles": [
+        0.9772,
+        0.8413,
+        0.1538,
+        0.0228
+    ]
+}
